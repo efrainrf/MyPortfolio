@@ -45,53 +45,65 @@ nav a {
 
 }
 
-aside {
-   
+.sidebar {
+    position: relative;
 }
 
 .about {
-    flex: 1;
-    padding: 80px;
-    text-align: left; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: var(--darkblue);
+}
+
+.aboutme {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
     float: left;
+    width: 18.4%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-right: 5px solid var(--skyblue);
+}
+
+
+.asidetext {
+    float: right;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .core{
-
+width: 80%;
+float: right;
 }
 
 .boxone {
-    height: 466px;
-    border: 5px solid white;
-    box-sizing: border-box;
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    align-items: center;
+height: 200px;
+border: 5px solid rgb(255, 255, 255);
+padding: 9px;
+}
+
+.boxtext {
+
 }
 
 .boxtwo {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
+
 }
 
 .card {
-    width: 560px;
-    height: 354px;
-    border: 5px solid white;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    
+ flex-basis: 50%;
+box-sizing: border-box;   
 }
 
 .cardtext{
-
+border: solid white;
+padding: 20px;
 }
 
 .email {
