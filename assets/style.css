@@ -1,0 +1,43 @@
+:root {
+ --bone: #ebf0d8;
+ --skyblue: #8cc9f5;
+ --darkblue: #021929;
+--turqouise: #024d48;
+
+}
+
+body{
+    background-color: var(--bone);
+}
+
+.title{
+background-color:var(--bone);
+padding: .3rem;
+}
+
+.col{
+color: var(--darkblue);
+background-color: var(--skyblue); border-radius: 10px;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: underline;
+    text-align: center;
+  }
+
+.link{
+    display: flex;
+    justify-content: right;
+
+}
+
+.about {
+    font-size: large;
+    color: var(--darkblue);
+    text-align: left;
+    border-style: solid;
+    border-right: #021929;
+    
+}
