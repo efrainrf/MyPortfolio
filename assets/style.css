@@ -7,18 +7,30 @@
 }
 
 body{
+    display: block;
     background-color: var(--bone);
 }
 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .title{
-background-color:var(--bone);
+background-color: var(--skyblue);
 padding: .3rem;
 }
 
-.col{
-color: var(--darkblue);
-background-color: var(--skyblue); border-radius: 10px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    padding: 14px 20px;
 }
+
 
 nav a {
     color: #13293d;
@@ -33,11 +45,67 @@ nav a {
 
 }
 
+aside {
+   
+}
+
 .about {
-    font-size: large;
-    color: var(--darkblue);
-    text-align: left;
-    border-style: solid;
-    border-right: #021929;
+    flex: 1;
+    padding: 80px;
+    text-align: left; 
+    float: left;
+}
+
+.core{
+
+}
+
+.boxone {
+    height: 466px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.boxtwo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.card {
+    width: 560px;
+    height: 354px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cardtext{
+
+}
+
+.email {
+
+}
+
+.socials {
+
+}
+
+h3 {
+
+}
+
+footer p {
     
 }
