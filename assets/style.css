@@ -115,14 +115,32 @@ background-position: center;
 
 }
 
-.card {
+.cardone {
  flex-basis: 50%;
 box-sizing: border-box;   
 }
 
-.cardtext{
+.cardtwo {
+    flex-basis: 50%;
+   box-sizing: border-box;   
+   }
+   
+
+.cardthree {
+flex-basis: 50%;
+box-sizing: border-box;   
+}
+   
+.cardfour {
+   flex-basis: 50%;
+box-sizing: border-box;    
+}
+
+   .cardtext{
 border: solid white;
 padding: 20px;
+height: 150px;
+text-decoration: solid;
 }
 
 .email {
