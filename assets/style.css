@@ -92,6 +92,21 @@ background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.me {
+    height: 200px;
+border: 5px solid rgb(255, 255, 255);
+padding: 9px;
+background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+background-position: center;
+overflow: hidden;
+font-size: 13.5px;
+}
+
+.boxtext {
+    font-family: sans-serif;
+}
+
 .core{
 width: 85%;
 float: right;
@@ -104,18 +119,23 @@ padding: 9px;
 background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 background-size: cover;
 background-position: center;
+filter: brightness(95%);
+transition: filter 0.3s;
+}
+
+.boxone:hover {
+    filter: none;
 }
 
 .boxone a {
     display: block;
     width: 100%;
     height: 100%;
-
 }
 
 .boxonetext {
 float: inline-end;
-border-style: double;
+border-style: solid;
 padding: 20px;
 border-color: teal;
 }
@@ -130,8 +150,9 @@ border-color: teal;
     padding: 20px;
     text-decoration: solid;
     float: inline-end;
-    border-style: double;
+    border-style: solid;
     border-color: teal;
+    font-family: sans-serif;
     }
 
 .cardone {
@@ -144,6 +165,12 @@ border-width: 5px;
 background-image: url(https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load);
 background-size: cover;
 background-position: center;
+filter: brightness(85%);
+transition: filter 0.3s;
+}
+
+.cardone:hover{
+    filter: none;
 }
 
 .cardone a {
@@ -159,6 +186,12 @@ background-position: center;
    border-style: solid;
    border-color: white;
    border-width: 5px;
+   filter: brightness(85%);
+transition: filter 0.3s;
+}
+
+.cardtwo:hover {
+    filter: none;
 }
    
 .cardtwo a {
@@ -174,6 +207,12 @@ height: 200px;
 border-style: solid;
 border-color: white;
 border-width: 5px;
+filter: brightness(85%);
+transition: filter 0.3s;
+}
+
+.cardthree:hover {
+    filter: none;
 }
  
 .cardthree a {
@@ -189,6 +228,12 @@ height: 200px;
 border-style: solid;
 border-color: white;
 border-width: 5px;
+filter: brightness(85%);
+transition: filter 0.3s;
+}
+
+.cardfour:hover {
+    filter: none;
 }
 
 .cardfour a {
