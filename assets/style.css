@@ -63,6 +63,7 @@ nav a {
 background-image:url(avatar.png);
 background-size: cover;
 background-position: center;
+
 }
 
 .pictext {
@@ -242,18 +243,35 @@ transition: filter 0.3s;
     height: 100%;
 }
 
+.myinfo {
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+    margin: 50px;
+    font-size: x-large;
+}
+
+.contact {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s;
+    font-family: sans-serif;
+}
+
+.contact:hover {
+    color: #007bff;
+}
+
+.phone {
+padding: 50px;
+margin-left: 16px;
+}
+
 .email {
-
+padding: 50px
 }
 
-.socials {
-
-}
-
-h3 {
-
-}
-
-footer p {
-    
+.social {
+padding: 50px;
 }
