@@ -101,11 +101,12 @@ background-image: url(https://images.pexels.com/photos/255379/pexels-photo-25537
 background-size: cover;
 background-position: center;
 overflow: hidden;
-font-size: 13.5px;
+font-size: .8rem;
 }
 
 .boxtext {
     font-family: sans-serif;
+
 }
 
 .core{
@@ -285,6 +286,12 @@ padding: 50px
 padding: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 750px) {
+    .boxtext{
+        font-size: .9rem;
+    }
+    .picholder {
+        height: 300px;
+        
+    }
 };
